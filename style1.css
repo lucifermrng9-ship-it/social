@@ -1,0 +1,134 @@
+:root{
+    --primary-color: hsl(75, 94%, 57%);
+    --secondary-color: hsl(0, 0%, 100%);
+    --tertiary-color: hsl(0, 0%, 20%);
+    --quaternary-color: hsl(0, 0%, 12%);
+    --quinary-color: hsl(0, 0%, 8%);
+    --font-size: 0.875rem;
+
+}
+
+@font-face {
+    font-family: Inter;
+    src: url( assets/fonts/Inter-VariableFont_slnt,wght.ttf) format( "truetype" );
+    font-weight: 400 600 700;
+}
+    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--quinary-color);
+    font-family: Inter;
+    font-size: var(--font-size);
+    color: var(--secondary-color);
+}
+
+.social-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    max-width: 400px;
+    background-color: var(--quaternary-color);
+    padding: 32px 40px;
+    border-radius: 1rem;
+}
+
+header{
+    text-align: center;
+
+}
+
+.fig-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.3em;
+}
+
+.caption{
+    font-size: 2em;
+}
+
+
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.location{
+    color: var(--primary-color);
+    margin:8px 0 16px 0;
+    font-size: 1.2em;
+   
+}
+
+.bio{
+    text-align:center;
+    margin-bottom: 32px;
+    padding:0 16px;
+}
+
+.navbar{ 
+      width:100%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.navbar li{
+    width:100%;
+}
+
+
+
+.navbar a{
+    display: block;
+    width:100%;
+    text-align:center;
+
+
+
+    text-decoration: none;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    padding: 12px 0;
+    border-radius: 8px;
+   
+    
+}
+
+.navbar a:hover{
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+}
+
+
+

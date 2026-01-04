@@ -17,12 +17,12 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 
 ### Screenshot
-![](screenshot.jpg)
+![](Screenshot.jpg)
 
 ### Links
 
 - Solution URL: https://github.com/lucifermrng9-ship-it/social.git
-- Live Site URL:  https://lucifermrng9-ship-it.github.io/social/
+- Live Site URL: 
 
 ## My process
 
