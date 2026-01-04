@@ -22,7 +22,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: https://github.com/lucifermrng9-ship-it/social.git
-- Live Site URL: 
+- Live Site URL:  https://lucifermrng9-ship-it.github.io/social/
 
 ## My process
 
